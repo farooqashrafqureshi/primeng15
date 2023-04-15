@@ -1052,7 +1052,7 @@ export class Dropdown implements OnInit, AfterViewInit, AfterContentInit, AfterV
                 if (this.overlayVisible && (!this.filter || (this.optionsToDisplay && this.optionsToDisplay.length > 0))) {
                     this.hide();
                 } else if (!this.overlayVisible) {
-                    this.show();
+                    //this.show();
                 }
 
                 event.preventDefault();
